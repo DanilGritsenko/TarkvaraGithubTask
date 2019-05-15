@@ -1,0 +1,77 @@
+body{
+  background-image: url('snowing.gif');
+  background-size: cover;
+  background-color: #0b1e63;
+  color: white;
+}
+#p{
+	color: white;
+}
+header{
+  background: rgba(242,242,239,0.4);
+  color: white;
+  margin-left:20%;/*поле с лева от края страници*/
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 300px;
+  border: solid 5px black;/*dotted, dashed, double*/
+  border-radius: 100px;
+  color: white;
+  text-align: center;
+}
+header h1{
+  text-align: center;/*заголовок по центру*/
+  padding:0.5cm;
+  letter-spacing:0.3cm;
+  font:bold 25px Georgia;
+  color: white;
+}
+footer{
+  background-color: #0B1E63;
+  margin-left:80%;
+  margin-top:25%;
+  text-align: left;
+  padding:0.5cm;
+  letter-spacing:0.1cm;
+  font:bold 15px Georgia;
+  border: solid 5px black;
+  border-radius: 120px;
+  color: white;
+  background: rgba(89,125,255,0.3)
+}
+nav ul{
+  list-style-type:none;
+  margin-left:5%;
+  overflow: hidden;/*скрывает лишний текст если он не влизает в бокс*/
+  
+}
+nav li{
+  float:top;/*выравнивает меню по горизонтали*/
+}
+nav li{
+  background-color: #597dff;
+  display:inline-block;
+  text-align: center;
+  padding:10px;
+  border: solid 2px black;/*dotted, dashed, double*/
+  border-radius: 200px;
+  text-decoration: none;
+  color: gray;
+  background: rgba(242,242,239,0.4)
+}
+main{
+  margin-left: 30%;
+  overflow: visible;
+  width: 60%;
+  padding:1%;
+  color:white;
+  background: rgba(242,242,239,0.3)
+}
+nav li a:hover{
+  text-decoration: underline;
+}
+nav{
+  position:absolute;
+  height:0%;
+  top:0%;
+}
