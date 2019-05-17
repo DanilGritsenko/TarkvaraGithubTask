@@ -1,3 +1,4 @@
+/*comment TODO: Убрать гиф-заставку, поменять цвет заставки на чёрный, покрасить все буквы в зелёный цвет */
 body{
   background-image: url('snowing.gif');
   background-size: cover;
